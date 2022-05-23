@@ -15,7 +15,7 @@ using Microsoft.VisualBasic;
 
 namespace FraxMemoryEditor
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private Memory memory = new Memory();
         private List<IntPtr> scannedValues = new List<IntPtr>();
@@ -25,7 +25,7 @@ namespace FraxMemoryEditor
         private Dictionary<IntPtr, Type> savedValues = new Dictionary<IntPtr, Type>();
         private Dictionary<IntPtr, dynamic> frozenValues = new Dictionary<IntPtr, dynamic>();
         private const int resultBoxVisibleCount = 13;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             //Change to double buffered otherwise the listview is buggy
