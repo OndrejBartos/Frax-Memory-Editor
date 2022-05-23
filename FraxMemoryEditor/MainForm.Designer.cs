@@ -380,8 +380,8 @@ namespace FraxMemoryEditor
             this.Controls.Add(this.attachedLabel);
             this.Controls.Add(this.processComboBox);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.Name = "Form1";
-            this.Text = " ";
+            this.Name = "MainForm";
+            this.Text = "Frax";
             this.searchValuePanel.ResumeLayout(false);
             this.searchValuePanel.PerformLayout();
             this.resultMenuStrip.ResumeLayout(false);
